@@ -41,9 +41,11 @@ class PaypalCheckoutViewState extends State<PaypalCheckoutView> {
   late PaypalServices services;
   int pressed = 0;
   double progress = 0;
-  final String returnURL =
-      'https://www.youtube.com/channel/UC9a1yj1xV2zeyiFPZ1gGYGw';
-  final String cancelURL = 'https://www.facebook.com/tharwat.samy.9';
+  final String returnURL = "https://lingtrio.com/";
+  // 'https://www.youtube.com/channel/UC9a1yj1xV2zeyiFPZ1gGYGw';
+  final String cancelURL = "https://lingtrio.com/login";
+
+  // 'https://www.facebook.com/tharwat.samy.9';
 
   late InAppWebViewController webView;
 
